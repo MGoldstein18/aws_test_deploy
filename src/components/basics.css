@@ -1,0 +1,19 @@
+#basicsHeading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  margin-bottom: 0.5em;
+  color: rgb(1, 36, 1);
+}
+
+
+.basicsQuestion {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  padding-top: 10%;
+  color: rgb(36, 54, 36);
+}
+
+.list li{
+  margin-top: 1.5rem;
+}
