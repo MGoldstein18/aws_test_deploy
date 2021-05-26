@@ -130,10 +130,6 @@ function Basics(props) {
                   a "trustless transaction".
                 </li>
                 <li>
-                  The conditions for the agreement and the action executed are
-                  built into the code.{" "}
-                </li>
-                <li>
                   Exchanging cryptocurrencies and NFTs are some of the
                   transactions you can do on a blockchain. There are exchanges,
                   lending mechanisms, savings accounts, betting markets, social
