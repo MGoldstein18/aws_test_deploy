@@ -50,7 +50,7 @@ function Buying(props) {
             <Card.Body>
               <ul className="list">
                 <li>
-                  To transact on a blochain you need to own an amount of at least one cryptocurrency.
+                  To transact on a blockchain you need to own an amount of at least one cryptocurrency.
                 </li>
                 <li>
                   Cryptocurrencies can be bought in a similar way to how you buy
@@ -140,7 +140,7 @@ function Buying(props) {
                   crypto wallet/account and transact.
                 </li>
                 <li>
-                  Becuase this phrase has so much power, the crypto
+                  Because this phrase has so much power, the crypto
                   exchanges/wallets do not have access to your passphrase.
                 </li>
                 <li>

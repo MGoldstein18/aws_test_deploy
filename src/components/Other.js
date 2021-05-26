@@ -52,7 +52,7 @@ function Other(props) {
                 <li>
                   A DAO can be created when a group of people set rules for
                   their organization, invest financially in it by buying a token
-                  of sorts which gives voting right and/or rewards and then
+                  of sorts which gives voting rights and/or rewards and then
                   operate the organization using the predefined rules and tokens
                   to make decisions.
                 </li>
@@ -108,7 +108,7 @@ function Other(props) {
                   blockchain".
                 </li>
                 <li>
-                  This means that each user who join the platform has their own
+                  This means that each user who joins the platform has their own
                   creator coin which they can buy and then use to invest in
                   other users.
                 </li>
@@ -144,7 +144,7 @@ function Other(props) {
                 <li>
                   It is different to a regular exchange like Coinbase because
                   the prices are set by smart contracts and you have full
-                  control over you assets instead of them being in an exchange.
+                  control over your assets instead of them being in an exchange.
                 </li>
                 <li>
                   Additionally, Uniswap is different because it uses an

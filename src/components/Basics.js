@@ -46,7 +46,7 @@ function Basics(props) {
         <Card bg="dark" text="success" border="success">
           <Accordion.Toggle as={Card.Header} variant="link" eventKey="1">
             <b className="basicsQuestion" style={{ color: "aliceBlue" }}>
-              What is a crypto currency?
+              What is a cryptocurrency?
             </b>{" "}
             <br />
             Click for the answer!
@@ -59,8 +59,11 @@ function Basics(props) {
                   transactions are stored on a blockchain.
                 </li>
                 <li>
-                  A cryptocurrency can be valuable because it can be used for
-                  transactions on a blockchain.
+                  A cryptocurrency can be valuable because, with it, you can
+                  transact on a blockchain and enjoy the benefits of the various
+                  applications and services offered on blockchains. Please see
+                  our question: "What can I buy on the blockchain?" for more
+                  details.
                 </li>
                 <li>
                   Another reason that cryptocurrencies like Bitcoin and Ethereum
@@ -118,13 +121,13 @@ function Basics(props) {
                 </li>
                 <li>
                   A blockchain like Ethereum is programmable, which means that
-                  developers can create smart contract which enable trustless
-                  transactions.
+                  developers can create smart contracts.
                 </li>
                 <li>
-                  A smart contract is a agreement which can be triggered by
-                  specified conditions and is then executed automatically by
-                  code.
+                  A smart contract is a piece of code which enforces a set of
+                  rules. Because these rules are written into the code, parties
+                  who don’t know or trust each other can trust the transaction -
+                  a "trustless transaction".
                 </li>
                 <li>
                   The conditions for the agreement and the action executed are
@@ -133,8 +136,8 @@ function Basics(props) {
                 <li>
                   Exchanging cryptocurrencies and NFTs are some of the
                   transactions you can do on a blockchain. There are exchanges,
-                  lending mechanism, savings accounts, betting markets, social
-                  networks and much more on blockchains.
+                  lending mechanisms, savings accounts, betting markets, social
+                  networks and much more.
                 </li>
               </ul>
             </Card.Body>
@@ -152,7 +155,7 @@ function Basics(props) {
             <Card.Body>
               <ul className="list">
                 <li>
-                  Open-source software is software for which the code in
+                  Open-source software is software for which the code is
                   publicly available and usable.
                 </li>
                 <li>
@@ -166,7 +169,7 @@ function Basics(props) {
         <Card bg="dark" text="danger" border="danger">
           <Accordion.Toggle as={Card.Header} variant="link" eventKey="5">
             <b className="basicsQuestion" style={{ color: "aliceBlue" }}>
-              What is a 'decentralized?
+              What is decentralized?
             </b>{" "}
             <br />
             Click for the answer!
@@ -179,7 +182,7 @@ function Basics(props) {
                   controlling something.
                 </li>
                 <li>
-                  In te context of blockchain, it means that each user can
+                  In the context of blockchain, it means that each user can
                   interact directly with the blockchain network, that code is
                   open-source and that all data is publicly available.
                 </li>
