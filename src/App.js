@@ -7,6 +7,11 @@ import Basics from "./components/Basics.js";
 import Buying from "./components/Buying.js";
 import Other from "./components/Other.js";
 import Ask from "./components/Ask.js";
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+
+
+Amplify.configure(awsconfig);
 
 function App() {
   return (
