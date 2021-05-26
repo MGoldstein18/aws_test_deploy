@@ -4,7 +4,7 @@ import "./footer.css";
 
 function Footer(props) {
   return (
-    <h1 className="m-5 p-5" id="footer">
+    <h1 className="m-3 p-1" id="footer">
       Thank you for visiting <i>WhatIsTheBlochchain.co</i>
     </h1>
   );

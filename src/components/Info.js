@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Basics from "./Basics.js";
 import Buying from "./Buying.js";
 import Other from "./Other.js";
@@ -10,24 +9,16 @@ import "./info.css";
 
 function Info(props) {
   return (
-    <Container>
-      <Row>
-        <Col sm>
-          <Basics />
-        </Col>
-        <Col sm>
-          <Buying />
-        </Col>
-      </Row>
-      <Row>
-        <Col sm>
-          <Other />
-        </Col>
-        <Col sm>
-          <Ask />
-        </Col>
-      </Row>
-    </Container>
+    <div className="container">
+      <div className="row justify-content-center" >
+        <Basics />
+        <Buying />
+      </div>
+      <div className="row justify-content-center">
+        <Other />
+        <Ask />
+      </div>
+    </div>
   );
 }
 

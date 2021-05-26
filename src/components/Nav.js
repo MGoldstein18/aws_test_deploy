@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Nav(props) {
   return (
-    <Navbar className="p-4 m-5" expand="lg" text="light">
+    <Navbar className="p-2 m-5" expand="lg" text="light">
       <Navbar.Brand
         style={{
           color: "white",

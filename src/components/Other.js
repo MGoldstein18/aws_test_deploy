@@ -1,12 +1,12 @@
 import React from "react";
-import Container from "react-bootstrap/esm/Container";
+import Col from "react-bootstrap/Col";
 import "./basics.css";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
 function Other(props) {
   return (
-    <Container id="basicsContainer" className="shadow-lg bg-dark p-5 m-5">
+    <div id="basicsContainer" className="col m-5 p-5 shadow-lg bg-dark">
       <h1 id="basicsHeading" style={{ color: "white" }}>
         Other Blockchain Questions
       </h1>
@@ -21,7 +21,7 @@ function Other(props) {
             Click for the answer!
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="0">
-            <Card.Body>Hello! I'm the body</Card.Body>
+            <Card.Body>Answer coming soon...</Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card bg="dark" text="success" border="success">
@@ -33,7 +33,7 @@ function Other(props) {
             Click for the answer!
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="1">
-            <Card.Body>Hello! I'm the body</Card.Body>
+            <Card.Body>Answer coming soon...</Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card bg="dark" text="danger" border="danger">
@@ -45,7 +45,7 @@ function Other(props) {
             Click for the answer!
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="2">
-            <Card.Body>Hello! I'm the body</Card.Body>
+            <Card.Body>Answer coming soon...</Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card bg="dark" text="info" border="info">
@@ -57,7 +57,7 @@ function Other(props) {
             Click for the answer!
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="3">
-            <Card.Body>Hello! I'm the body</Card.Body>
+            <Card.Body>Answer coming soon...</Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card bg="dark" text="success" border="success">
@@ -69,7 +69,7 @@ function Other(props) {
             Click for the answer!
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="4">
-            <Card.Body>Hello! I'm the body</Card.Body>
+            <Card.Body>Answer coming soon...</Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card bg="dark" text="danger" border="danger">
@@ -81,11 +81,11 @@ function Other(props) {
             Click for the answer!
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="5">
-            <Card.Body>Hello! I'm the body</Card.Body>
+            <Card.Body>Answer coming soon...</Card.Body>
           </Accordion.Collapse>
         </Card>
       </Accordion>
-    </Container>
+    </div>
   );
 }
 

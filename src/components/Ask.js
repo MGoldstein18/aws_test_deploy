@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import emailjs from "emailjs-com";
@@ -43,7 +43,7 @@ function Ask(props) {
   }
 
   return (
-    <Container className="shadow-lg bg-white p-5 m-5">
+    <div className=" col m-5 p-5 shadow-lg bg-white">
       <h1 id="basicsHeading">Did we miss something?</h1>
       <hr />
       <p>
@@ -52,11 +52,16 @@ function Ask(props) {
         <br />
         <br /> We can't wait to hear from you!
       </p>
-      <hr/>
+      <hr />
       <Form id="myForm" onSubmit={sendEmail}>
         <Form.Group>
           <Form.Label>Email address</Form.Label>
-          <Form.Control onChange={changeEmail} value={email} type="email" />
+          <Form.Control
+            onChange={changeEmail}
+            value={email}
+            type="email"
+            required
+          />
         </Form.Group>
 
         <Form.Group>
@@ -68,13 +73,14 @@ function Ask(props) {
             value={text}
             as="textarea"
             rows={10}
+            required
           />
         </Form.Group>
         <Button variant="info" type="submit">
           Submit
         </Button>
       </Form>
-    </Container>
+    </div>
   );
 }
 

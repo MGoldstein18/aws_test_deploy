@@ -1,13 +1,15 @@
 import React from "react";
-import Container from "react-bootstrap/esm/Container";
+import Col from "react-bootstrap/Col";
 import "./basics.css";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
 function Buying(props) {
   return (
-    <Container id="basicsContainer" className="shadow-lg bg-dark p-5 m-5">
-      <h1 id="basicsHeading" style={{ color: "white" }}>Trading on the Blockchain</h1>
+    <div id="basicsContainer" className="col m-5 p-5 shadow-lg bg-dark">
+      <h1 id="basicsHeading" style={{ color: "white" }}>
+        Trading on the Blockchain
+      </h1>
       <hr />
       <Accordion>
         <Card bg="dark" text="info" border="info">
@@ -192,7 +194,7 @@ function Buying(props) {
           </Accordion.Collapse>
         </Card>
       </Accordion>
-    </Container>
+    </div>
   );
 }
 
