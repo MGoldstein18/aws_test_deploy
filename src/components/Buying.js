@@ -6,13 +6,15 @@ import Card from "react-bootstrap/Card";
 
 function Buying(props) {
   return (
-    <Container id="basicsContainer" className="shadow-lg bg-white p-5 m-5">
-      <h1 id="basicsHeading">Trading on the Blockchain</h1>
+    <Container id="basicsContainer" className="shadow-lg bg-dark p-5 m-5">
+      <h1 id="basicsHeading" style={{ color: "white" }}>Trading on the Blockchain</h1>
       <hr />
       <Accordion>
-        <Card text="info" border="info">
+        <Card bg="dark" text="info" border="info">
           <Accordion.Toggle as={Card.Header} variant="link" eventKey="0">
-            <b className="basicsQuestion">What can I buy on the blockchain?</b>{" "}
+            <b className="basicsQuestion" style={{ color: "aliceBlue" }}>
+              What can I buy on the blockchain?
+            </b>{" "}
             <br />
             Click for the answer!
           </Accordion.Toggle>
@@ -33,9 +35,9 @@ function Buying(props) {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card text="success" border="success">
+        <Card bg="dark" text="success" border="success">
           <Accordion.Toggle as={Card.Header} variant="link" eventKey="1">
-            <b className="basicsQuestion">
+            <b className="basicsQuestion" style={{ color: "aliceBlue" }}>
               Where can I transact on the blockchain?
             </b>{" "}
             <br />
@@ -64,9 +66,9 @@ function Buying(props) {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card text="danger" border="danger">
+        <Card bg="dark" text="danger" border="danger">
           <Accordion.Toggle as={Card.Header} variant="link" eventKey="2">
-            <b className="basicsQuestion">
+            <b className="basicsQuestion" style={{ color: "aliceBlue" }}>
               What is the difference between a crypto exchange and a crypto
               wallet?
             </b>
@@ -91,9 +93,12 @@ function Buying(props) {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card text="info" border="info">
+        <Card bg="dark" text="info" border="info">
           <Accordion.Toggle as={Card.Header} variant="link" eventKey="3">
-            <b className="basicsQuestion">What are "gas" fees?</b> <br />
+            <b className="basicsQuestion" style={{ color: "aliceBlue" }}>
+              What are "gas" fees?
+            </b>{" "}
+            <br />
             Click for the answer!
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="3">
@@ -112,9 +117,12 @@ function Buying(props) {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card text="success" border="success">
+        <Card bg="dark" text="success" border="success">
           <Accordion.Toggle as={Card.Header} variant="link" eventKey="5">
-            <b className="basicsQuestion">What is a seed phrase?</b> <br />
+            <b className="basicsQuestion" style={{ color: "aliceBlue" }}>
+              What is a seed phrase?
+            </b>{" "}
+            <br />
             Click for the answer!
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="5">
@@ -145,9 +153,11 @@ function Buying(props) {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card text="danger" border="danger">
+        <Card bg="dark" text="danger" border="danger">
           <Accordion.Toggle as={Card.Header} variant="link" eventKey="4">
-            <b className="basicsQuestion">What is the address of my wallet?</b>{" "}
+            <b className="basicsQuestion" style={{ color: "aliceBlue" }}>
+              What is the address of my wallet?
+            </b>{" "}
             <br />
             Click for the answer!
           </Accordion.Toggle>
