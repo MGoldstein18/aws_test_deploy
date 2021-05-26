@@ -34,9 +34,9 @@ function Basics(props) {
                 <li>
                   To ensure that all transactions on the blockchain are
                   accurate, a copy of the blockchain is stored on many computers
-                  around the world and this system of computers checks to ensure
-                  that the blockchain is the same on all the computers. This
-                  ensure that no miner can destroy the integrity of the
+                  around the world and this network of computers checks to
+                  ensure that the blockchain is the same on all the computers.
+                  This ensures that nobody can destroy the integrity of the
                   blockchain.
                 </li>
               </ul>
@@ -93,7 +93,7 @@ function Basics(props) {
                 </li>
                 <li>
                   This token can be art like a graphic, music or video and as it
-                  is created and then bought/sold these transactions are
+                  is created and then bought/sold. These transactions are
                   recorded on the blockchain.
                 </li>
               </ul>
@@ -117,7 +117,7 @@ function Basics(props) {
                   created as you read this.
                 </li>
                 <li>
-                  A blockchain like Ethereum is programmable which means that
+                  A blockchain like Ethereum is programmable, which means that
                   developers can create smart contract which enable trustless
                   transactions.
                 </li>
@@ -156,7 +156,7 @@ function Basics(props) {
                   publicly available and usable.
                 </li>
                 <li>
-                  Open-source projects often has many people who aren't
+                  Open-source projects often have many people who aren't
                   necessarily connected to each other working on them.
                 </li>
               </ul>
@@ -176,12 +176,12 @@ function Basics(props) {
               <ul className="list">
                 <li>
                   Decentralized means that that there is no central authority
-                  controlling everything.
+                  controlling something.
                 </li>
                 <li>
-                  It means that each user can interact directly with the
-                  blockchain network, that code is open-source and that all data
-                  is publicly available.
+                  In te context of blockchain, it means that each user can
+                  interact directly with the blockchain network, that code is
+                  open-source and that all data is publicly available.
                 </li>
               </ul>
             </Card.Body>
@@ -200,8 +200,8 @@ function Basics(props) {
               <ul className="list">
                 <li>
                   In the context of blockchain, a network is number of computers
-                  which are connected to form a system. These computers are
-                  referred to as nodes.
+                  which are connected to form a system. Each computer in the
+                  network is called a node.
                 </li>
                 <li>
                   Each node can be thought of as an access point to the network.

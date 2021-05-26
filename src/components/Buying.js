@@ -3,6 +3,7 @@ import Col from "react-bootstrap/Col";
 import "./basics.css";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
+import "./buying.css";
 
 function Buying(props) {
   return (
@@ -22,7 +23,7 @@ function Buying(props) {
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="0">
             <Card.Body>
-              <p>
+              <p style={{ fontSize: "20px" }}>
                 Using cryptocurrencies, you can do different kinds of
                 transactions. These include, but are not limited to:{" "}
               </p>
@@ -49,7 +50,7 @@ function Buying(props) {
             <Card.Body>
               <ul className="list">
                 <li>
-                  To transact on a blochain you need to own cryptocurrencies
+                  To transact on a blochain you need to own an amount of at least one cryptocurrency.
                 </li>
                 <li>
                   Cryptocurrencies can be bought in a similar way to how you buy
@@ -60,8 +61,8 @@ function Buying(props) {
                   others.
                 </li>
                 <li>
-                  When you open an account you will be given a seed phrase and
-                  and address of your account. These are important pieces of
+                  When you open an account you will be given a seed phrase
+                  and there will be an address of your account/wallet. These are important pieces of
                   information. Please see our questions on them.
                 </li>
               </ul>
@@ -111,8 +112,8 @@ function Buying(props) {
                   blockchain.
                 </li>
                 <li>
-                  These fees are paid to the miner to who processes the
-                  transaction and fluctuate based on the computing energy
+                  These fees are paid to the miner who processes the
+                  transaction and they fluctuate based on the computing energy
                   required to process the transaction.
                 </li>
               </ul>
@@ -131,7 +132,7 @@ function Buying(props) {
             <Card.Body>
               <ul className="list">
                 <li>
-                  A seed phrase is a computer phrase which contains all the
+                  A seed phrase is a computer-generated phrase which contains all the
                   necessary information to access your account.
                 </li>
                 <li>
